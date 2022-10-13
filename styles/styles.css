@@ -1,21 +1,122 @@
 @font-face {
   font-family: "PT Sans";
-  font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-weight: 400;
   src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "PT Sans";
-  font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-weight: 700;
   src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
 }
 
 body {
   font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align:center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.index-description-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.index-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages-list {
+  text-align: center;
+}
+
+.advanteges-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advanteges-title-white {
+  color: #FFFFFF;
+}
+
+/* todo незнаю что сюда вписать */
+/* .advantages-description {
+
+} */
+
+.advantages-description-white {
+  color: #FFFFFF;
+}
+
+.recommendations-list {
+  text-align: center;
+}
+
+.recommendations-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* todo незнаю что сюда вписать */
+/* .recommendations-description {
+
+} */
+
+.hotel-search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hotel-search-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
 }
