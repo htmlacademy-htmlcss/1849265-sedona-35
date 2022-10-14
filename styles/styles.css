@@ -26,15 +26,13 @@ body {
 
 .button {
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  /* align-items: center; */
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-
 }
 
 .page-header {
@@ -140,7 +138,7 @@ body {
   text-align: center;
 }
 
-.hotel-search-link {
+.hotel-search-button {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
