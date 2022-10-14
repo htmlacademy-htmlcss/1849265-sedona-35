@@ -24,6 +24,19 @@ body {
   background-color: #F2F2F2;
 }
 
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  /* align-items: center; */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
 .page-header {
   color: #000000;
   background: #FFFFFF;
@@ -64,25 +77,30 @@ body {
   text-align: center;
 }
 
-.advantages-list {
-  text-align: center;
+.advantages {
+  color: #000000;
+  background: rgba(131, 179, 211, 0.12);
 }
 
-.advanteges-title {
+.advantages-list {
+  text-align: center;
+  list-style: none;
+}
+
+.advantages-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
-.advanteges-title-white {
+.advantages-title-white {
   color: #FFFFFF;
 }
 
-/* todo незнаю что сюда вписать */
-/* .advantages-description {
-
-} */
+.advantages-description {
+  color: #333333;
+}
 
 .advantages-description-white {
   color: #FFFFFF;
@@ -90,6 +108,7 @@ body {
 
 .recommendations-list {
   text-align: center;
+  list-style: none;
 }
 
 .recommendations-title {
@@ -119,4 +138,40 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+}
+
+.hotel-search-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.newsletter-description {
+  /* font-weight: 400; */
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer-contacts-address-phone {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #000000;
 }
