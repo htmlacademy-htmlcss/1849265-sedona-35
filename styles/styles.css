@@ -35,6 +35,8 @@ body {
   color: #FFFFFF;
 }
 
+/* header */
+
 .page-header {
   color: #000000;
   background: #FFFFFF;
@@ -54,7 +56,11 @@ body {
   color: #000000;
 }
 
+/* main */
+
 .main-index {
+  color: #333333;
+  background-color: #F2F2F2;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -75,9 +81,11 @@ body {
   text-align: center;
 }
 
+/* advantages */
+
 .advantages {
   color: #000000;
-  background: rgba(131, 179, 211, 0.12);
+  background: rgba(113, 181, 227, 0.12);
 }
 
 .advantages-list {
@@ -104,6 +112,8 @@ body {
   color: #FFFFFF;
 }
 
+/* recommendations */
+
 .recommendations-list {
   text-align: center;
   list-style: none;
@@ -122,6 +132,8 @@ body {
 /* .recommendations-description {
 
 } */
+
+/* hotel-search */
 
 .hotel-search-title {
   font-weight: 700;
@@ -144,8 +156,11 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  background: #756157;
+  /* color: #FFFFFF; */
 }
+
+/* newsletter */
 
 .newsletter-title {
   font-weight: 700;
@@ -163,6 +178,12 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
+
+.newsletter-button {
+  background: #82B3D3;
+}
+
+/* footer */
 
 .footer-contacts-address-phone {
   font-weight: 700;
