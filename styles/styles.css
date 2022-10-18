@@ -61,6 +61,9 @@ body {
 .main-index {
   color: #333333;
   background-color: #F2F2F2;
+}
+
+.hero-welcome {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -241,7 +244,11 @@ body {
 
 
 .sorting-container {
-  background-color: #000000;
+  background-color:  #FFFFFF;
+}
+
+.switches-list {
+  list-style: none;
 }
 
 .hotel-list {
