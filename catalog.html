@@ -43,12 +43,10 @@
     </header>
     <main class="main-inner">
       <header class="inner-header">
-        <h1 class="visualli-hidden">Каталог гостиниц в Седоне</h1>
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html"
-              ><span class="visualli-hidden">Главная</span></a
-            >
+            <a class="breadcrumbs-link" href="index.html"><span class="visualli-hidden">Главная</span></a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы</a>
@@ -57,39 +55,25 @@
       </header>
       <section class="catalog-products">
         <h2 class="visualli-hidden">Список гостиниц с фильтром</h2>
-        <form
-          class="catalog-filter"
-          action="https://echo.htmlacademy.ru/"
-          method="get"
-        >
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    name="swimming-pool"
-                    checked
-                  />
+                  <input class="control-input" type="checkbox" name="swimming-pool" checked>
                   Бассейн
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    name="parking-space"
-                    checked
-                  />
+                  <input class="control-input" type="checkbox" name="parking-space" checked>
                   Парковка
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="wi-fi" />
+                  <input class="control-input" type="checkbox" name="wi-fi">
                   Wi-Fi
                 </label>
               </li>
@@ -100,35 +84,19 @@
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    name="product-group"
-                    value="hotel"
-                    checked
-                  />
+                  <input class="control-input" type="radio" name="product-group" value="hotel" checked>
                   Гостиница
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    name="product-group"
-                    value="motel"
-                  />
+                  <input class="control-input" type="radio" name="product-group" value="motel">
                   Мотель
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    name="product-group"
-                    value="apartments"
-                  />
+                  <input class="control-input" type="radio" name="product-group" value="apartments">
                   Апартаменты
                 </label>
               </li>
@@ -137,20 +105,22 @@
           <button class="button" type="submit">Применить</button>
         </form>
         <h2 class="hotels-found-title">Найдено гостиниц: 38</h2>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвое</option>
-          <option value="expensive">Сначала дорогое</option>
-          <option value="popular">Сначала популярное</option>
-        </select>
-        <a class="button button-current" href="#">
-          <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать колонкой</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать список</span>
-        </a>
+        <div class="sorting-container">
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвое</option>
+            <option value="expensive">Сначала дорогое</option>
+            <option value="popular">Сначала популярное</option>
+          </select>
+          <a class="button button-current" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать колонкой</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать список</span>
+          </a>
+        </div>
         <ul class="hotel-list">
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
@@ -227,7 +197,7 @@
         </ul>
         <ul class="pagination">
           <li class="pagination-item">
-            <a class="pagination-link" href="#">1</a>
+            <a class="pagination-link pagination-current" href="#">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -239,7 +209,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+            <a class="pagination-link pagination-current" href="#">...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
@@ -252,7 +222,7 @@
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form action="#" method="post">
-          <input type="email" placeholder="Ваш e-mail" />
+          <input type="email" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться</button>
         </form>
       </aside>
